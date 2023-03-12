@@ -46,7 +46,7 @@
 #define MAX_ANALOG_INPUTS   16
 #define MAX_OUTPUT_SHIFTERS 4
 #define MAX_INPUT_SHIFTERS  4
-#define MAX_DIGIN_MUX       4
+#define MAX_DIGIN_MUX       8
 
 #define MOBIFLIGHT_TYPE     "MobiFlight Mega"
 #define MOBIFLIGHT_SERIAL   "1234567890"
