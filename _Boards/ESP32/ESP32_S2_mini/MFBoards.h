@@ -45,7 +45,7 @@
 #define MAX_DIGIN_MUX       4
 #define MAX_CUSTOM_DEVICES  5
 
-#define MOBIFLIGHT_TYPE         "MobiFlight ESP32mini"
+#define MOBIFLIGHT_TYPE         "MobiFlight ESP32S2mini"
 #define MOBIFLIGHT_SERIAL       "0987654321"
 #define MOBIFLIGHT_NAME         "MobiFlight Mini ESP32"
 #define EEPROM_SIZE             4096
