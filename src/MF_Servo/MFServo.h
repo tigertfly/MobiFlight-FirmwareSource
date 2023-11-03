@@ -7,7 +7,11 @@
 #pragma once
 
 #include <Arduino.h>
+#if defined(ARDUINO_ARCH_ESP32)
+#include <ESP32Servo.h>
+#else
 #include <Servo.h>
+#endif
 
 class MFServo
 {
