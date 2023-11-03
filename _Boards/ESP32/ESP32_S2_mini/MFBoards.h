@@ -28,6 +28,9 @@
 #define MF_MUX_SUPPORT       1
 #define MF_DIGIN_MUX_SUPPORT 1
 #endif
+#ifndef MF_CUSTOMDEVICE_SUPPORT
+#define MF_CUSTOMDEVICE_SUPPORT 1
+#endif
 
 #define MAX_OUTPUTS         26
 #define MAX_BUTTONS         26
@@ -40,6 +43,7 @@
 #define MAX_OUTPUT_SHIFTERS 4
 #define MAX_INPUT_SHIFTERS  4
 #define MAX_DIGIN_MUX       4
+#define MAX_CUSTOM_DEVICES  5
 
 #define MOBIFLIGHT_TYPE         "MobiFlight ESP32mini"
 #define MOBIFLIGHT_SERIAL       "0987654321"
