@@ -13,7 +13,7 @@
       "MessageSize": 90,
       "EEPROMSize": 1496
     },
-    "HardwareIds": ["^VID_2341&PID_0070"],
+    "HardwareIds": ["^VID_303A&PID_80C2"], 
     "Info": {
       "CanInstallFirmware": false,
       "CanResetBoard": true,
