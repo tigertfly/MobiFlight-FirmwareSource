@@ -5,7 +5,7 @@
       "VerificationFileName": "INFO_UF2.TXT"
     },
     "Connection": {
-      "ConnectionDelay": 1750,
+      "ConnectionDelay": 2000,
       "ExtraConnectionRetry": false,
       "ForceResetOnFirmwareUpdate": false,
       "DelayAfterFirmwareUpdate": 0,
@@ -16,7 +16,7 @@
     "HardwareIds": ["^VID_303A&PID_80C2"], 
     "Info": {
       "CanInstallFirmware": false,
-      "CanResetBoard": true,
+      "CanResetBoard": false,
       "FirmwareBaseName": "mobiflight_esp32_s2_mini",
       "FirmwareExtension": "bin",
       "FriendlyName": "MobiFlight ESP32 Mini",
