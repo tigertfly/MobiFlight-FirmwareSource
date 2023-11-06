@@ -5,6 +5,7 @@
 //
 
 #include "MFInputShifter.h"
+#include "MFShiftData.h"
 
 inputShifterEvent MFInputShifter::_inputHandler = NULL;
 
@@ -51,7 +52,7 @@ void MFInputShifter::poll(uint8_t doTrigger)
     for (uint8_t module = 0; module < _moduleCount; module++) {
         uint8_t currentState;
 
-        currentState = shiftIn(_dataPin, _clockPin, MSBFIRST);
+        currentState = shiftInData(_dataPin, _clockPin, MSBFIRST);
 
         // If an input changed on the current module from the last time it was read
         // then hand it off to figure out which bits specifically changed.
