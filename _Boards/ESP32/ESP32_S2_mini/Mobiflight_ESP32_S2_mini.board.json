@@ -1,8 +1,10 @@
 {
     "$schema": "./mfboard.schema.json",
-    "UsbDriveSettings": {
-      "VolumeLabel": "RPI-RP2",
-      "VerificationFileName": "INFO_UF2.TXT"
+    "AvrDudeSettings": {
+      "Device": "atmega2560",
+      "BaudRates": ["115200"],
+      "Programmer": "wiring",
+      "Timeout": 15000
     },
     "Connection": {
       "ConnectionDelay": 2000,
