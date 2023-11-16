@@ -22,7 +22,7 @@
       "FirmwareBaseName": "mobiflight_esp32_s2_mini",
       "FirmwareExtension": "bin",
       "FriendlyName": "MobiFlight ESP32 Mini",
-      "LatestFirmwareVersion": "2.4.2",
+      "LatestFirmwareVersion": "2.4.4",
       "MobiFlightType": "MobiFlight ESP32S2mini",
       "ResetFirmwareFile": "reset.esp32_s2_mini.bin"
     },
@@ -45,126 +45,126 @@
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A0",
+        "Name": "1/A0",
         "Pin": 1
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A1",
+        "Name": "2/A1",
         "Pin": 2
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A2",
+        "Name": "3/A2",
         "Pin": 3
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A3",
+        "Name": "4/A3",
         "Pin": 4
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A4",
+        "Name": "5/A4",
         "Pin": 5
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A5",
+        "Name": "6/A5",
         "Pin": 6
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A6",
+        "Name": "7/A6",
         "Pin": 7
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A7",
+        "Name": "8/A7",
         "Pin": 8
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A8",
+        "Name": "9/A8",
         "Pin": 9
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A9",
+        "Name": "10/A9",
         "Pin": 10
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A10",
+        "Name": "11/A10",
         "Pin": 11
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A11",
+        "Name": "12/A11",
         "Pin": 12
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A12",
+        "Name": "13/A12",
         "Pin": 13
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": true,
-        "Name": "A13",
+        "Name": "14/A13",
         "Pin": 14
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": false,
-        "Name": "A14",
+        "Name": "15/A14",
         "Pin": 15
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": false,
-        "Name": "A15",
+        "Name": "16/A15",
         "Pin": 16
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": false,
-        "Name": "A16",
+        "Name": "17/A16",
         "Pin": 17
       },
       {
         "isAnalog": true,
         "isI2C": false,
         "isPWM": false,
-        "Name": "A17",
+        "Name": "18/A17",
         "Pin": 18
       },
       {
@@ -175,8 +175,9 @@
       },
       {
         "isAnalog": false,
-        "isI2C": false,
+        "isI2C": true,
         "isPWM": false,
+        "Name": "33/I2C",
         "Pin": 33
       },
       {
@@ -189,11 +190,12 @@
         "isAnalog": false,
         "isI2C": true,
         "isPWM": false,
+        "Name": "35/I2C",
         "Pin": 35
       },
       {
         "isAnalog": false,
-        "isI2C": true,
+        "isI2C": false,
         "isPWM": false,
         "Pin": 36
       },
