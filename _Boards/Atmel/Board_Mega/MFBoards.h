@@ -36,6 +36,9 @@
 #define MF_DIGIN_MUX_SUPPORT 1
 #endif
 
+#ifndef MOBIFLIGHT_TYPE
+#define MOBIFLIGHT_TYPE     "MobiFlight Mega"
+#endif
 #ifndef MOBIFLIGHT_SERIAL
 #define MOBIFLIGHT_SERIAL   "1234567890"
 #endif
