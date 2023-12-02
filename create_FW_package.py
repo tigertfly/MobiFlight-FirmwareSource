@@ -1,3 +1,7 @@
+# Script from: https://github.com/platformio/platform-espressif32/issues/1078
+# creates one .bin file for ESP32 which can be flashed at once
+# e.g. C:/Users/ralfk/.platformio/penv/Scripts/python.exe C:/Users/ralfk/.platformio/packages/tool-esptoolpy/esptool.py write_flash 0x0000 C:/_PlatformIO/MobiFlight-FirmwareSource/.pio/build/mobiflight_esp32_s2_mini/mobiflight_esp32_s2_mini_merged_0_0_1.bin
+
 Import("env")
 
 APP_BIN = "$BUILD_DIR/${PROGNAME}.bin"
