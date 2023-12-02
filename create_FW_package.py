@@ -39,6 +39,6 @@ env.AddPostAction(APP_BIN , merge_bin)
 env.Replace(
     UPLOADERFLAGS=[
         ]
-        + ["0x0", MERGED_BIN],
+        + ["write_flash", "0x0", MERGED_BIN],
     UPLOADCMD='"$PYTHONEXE" "$UPLOADER" $UPLOADERFLAGS',
 )
